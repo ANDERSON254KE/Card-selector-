@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css" class="">
+     <title>Document</title>
+</head>
+<body>
+     <div class="wrapper">
+          <div id="search-container">
+               <input 
+               type="search"
+               id="search-input"
+               placeholder="Search product name here...."
+               />
+               <button id="search">Search</button>
+          </div>
+          <div id="buttons">
+               <button class="button-value"onClick="filterProduct('All')">All</button>
+               <button class="button-value"onClick="filterProduct('Topwear')">Topwear</button>
+               <button class="button-value"onClick="filterProduct('Bottomwear')">Bottom wear</button>
+               <button class="button-value"onClick="filterProduct('jacket')">Jacket</button>
+               <button class="button-value" onClick="filterProduct('watches')">Watch</button>
+          </div>
+          <div id="products">
+
+          </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
